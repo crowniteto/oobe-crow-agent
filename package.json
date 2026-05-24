@@ -1,46 +1,24 @@
 {
-  "name": "oobe-crow-agent",
+  "name": "oobe-ace-agent",
   "version": "1.0.0",
-  "description": "Crow Market Intelligence — Autonomous on-chain agent for OOBE × Ace Data Cloud bounty. Discovers tools via SAP, executes tasks using Ace Data Cloud, settles payments with x402 workflows.",
-  "main": "dist/crow-sap-agent.js",
+  "main": "index.js",
   "scripts": {
-    "start": "ts-node crow-sap-agent.ts",
-    "dry-run": "ts-node src/crow-dry-run.ts",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:sentinel": "vitest run --grep sentinel",
-    "build": "tsc",
-    "clean": "rm -rf dist results/*.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "solana",
-    "oobe-protocol",
-    "sap",
-    "x402",
-    "ace-data-cloud",
-    "autonomous-agent",
-    "ai-agent",
-    "defi",
-    "blockchain",
-    "micropayments"
-  ],
-  "author": "Crow Agent",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/crowniteto/oobe-crow-agent.git"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "@coral-xyz/anchor": "^0.32.1",
-    "@oobe-protocol-labs/synapse-client-sdk": "^2.0.6",
-    "@oobe-protocol-labs/synapse-sap-sdk": "^0.18.0",
+    "@oobe-protocol-labs/synapse-sap-sdk": "file:synapse-sap-sdk",
+    "@solana/spl-token": "^0.4.14",
     "@solana/web3.js": "^1.98.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@types/node": "^25.9.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.7"
+    "@types/node": "^25.9.1"
   }
 }

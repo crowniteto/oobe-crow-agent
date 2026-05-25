@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment & secrets
+.env
+.env.!(example)
+.keys/
+*.keypair.json
+*-keypair.json
+devnet-wallet*.json
+solana-keypair.json
+agent-keypair.json
+
+# Test ledger (local validator data)
+test-ledger/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files (optional, keep for reproducibility)
+# package-lock.json
+
+# Results (local execution logs)
+results/
+synapse-client-sdk/
+synapse-sap-sdk/

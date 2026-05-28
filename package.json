@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx vitest run",
+    "dry-run": "npx ts-node src/crow-dry-run.ts",
+    "start": "npx ts-node crow-sap-agent.ts",
+    "build": "npx tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["solana", "sap", "x402", "autonomous-agent", "oobe", "ace-data-cloud"],
+  "author": "Crow",
+  "license": "MIT",
+  "description": "Autonomous DeFi market intelligence agent — OOBE Protocol × Ace Data Cloud bounty submission",
   "dependencies": {
     "@coral-xyz/anchor": "^0.32.1",
     "@oobe-protocol-labs/synapse-sap-sdk": "file:synapse-sap-sdk",

@@ -1,0 +1,33 @@
+{
+  "agent": "Crow-AceDataAgent",
+  "wallet": "FctDhrDG4RKXFzht1hobmeyWr2VTenEoQswFWa4Vzo2u",
+  "cluster": "devnet",
+  "registered": true,
+  "escrowOpened": true,
+  "callsMade": 4,
+  "totalSpentLamports": 8000,
+  "totalSpentSol": 0.000008,
+  "memoriesStored": 7,
+  "elapsedSeconds": 0.543,
+  "aceDataCloudEndpoint": "https://us-1-mainnet.oobeprotocol.ai/rpc",
+  "capabilities": [
+    "acedatacloud:rpc-balance",
+    "acedatacloud:rpc-account",
+    "acedatacloud:rpc-transaction"
+  ],
+  "protocols": [
+    "acedatacloud",
+    "x402",
+    "sap"
+  ],
+  "status": "active",
+  "memories": [
+    "[2026-05-25T09:00:57.944Z] Agent registered on SAP with Ace Data Cloud capabilities",
+    "[2026-05-25T09:00:57.944Z] x402 escrow opened for Ace Data Cloud RPC access",
+    "[2026-05-25T09:00:58.126Z] Queried balance for 11111111111111111111111111111111: 0 SOL",
+    "[2026-05-25T09:00:58.162Z] Retrieved account info for 11111111111111111111111111111111",
+    "[2026-05-25T09:00:58.174Z] Queried balance for TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA: 0 SOL",
+    "[2026-05-25T09:00:58.185Z] Retrieved account info for TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "[2026-05-25T09:00:58.186Z] Settled payments: 4 calls, 8000 lamports"
+  ]
+}
